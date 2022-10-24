@@ -1,0 +1,15 @@
+---
+name: opensearch
+pack: sample_pack
+description: Trigger OpenSearch pipeline
+enabled: true
+
+trigger:
+  type: core.st2.webhook
+  parameters:
+    url: sample
+
+action:
+  ref: sample.echo_action
+  parameters:
+    message: "{{ trigger.body.message }}"
