@@ -10,6 +10,6 @@ trigger:
     url: sample
 
 action:
-  ref: sample.echo_action
+  ref: sample_pack.echo_action
   parameters:
     message: "{{ trigger.body.message }}"
