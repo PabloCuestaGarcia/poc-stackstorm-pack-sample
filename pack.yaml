@@ -1,0 +1,14 @@
+---
+ref: sample_pack
+name: sample_pack
+description: "Sample pack to play with stack storm"
+keywords:
+  - opensearch
+  - index
+python_versions:
+  - "3"
+author: Pablo
+version: 0.0.1
+email: pablo.delacuesta@outlook.com
+contributors:
+  - "Pablo de la Cuesta pablo.delacuesta@outlook.com"
