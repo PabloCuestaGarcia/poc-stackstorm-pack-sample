@@ -7,6 +7,4 @@ class MyEchoAction(Action):
         """
 		"""
         print(message)
-        if message == 'working':
-            return (True, message)
-        return (False, message)
+        return (True, message)

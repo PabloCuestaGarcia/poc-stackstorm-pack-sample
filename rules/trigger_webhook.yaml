@@ -13,3 +13,4 @@ action:
   ref: sample_pack.echo_action
   parameters:
     message: "{{ trigger.body.message }}"
+    another_message: "{{ trigger.body.message }}"

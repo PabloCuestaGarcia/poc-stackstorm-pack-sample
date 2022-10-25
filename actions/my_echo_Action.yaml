@@ -10,3 +10,7 @@ parameters:
     description: Message to print.
     required: true
     position: 0
+  another_message:
+    type: string
+    description: Another message
+    required: false
