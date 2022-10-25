@@ -1,5 +1,5 @@
 
-from actions.lib.base import BaseClass
+from lib.base import BaseClass
 
 
 class MyEchoAction(BaseClass):
