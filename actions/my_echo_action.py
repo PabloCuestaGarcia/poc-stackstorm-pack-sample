@@ -4,9 +4,6 @@ from actions.lib.base import BaseClass
 
 class MyEchoAction(BaseClass):
 
-    def __init__(self, config=None) -> None:
-        super().__init__(config)
-
     def run(self, message):
         """
 		"""
