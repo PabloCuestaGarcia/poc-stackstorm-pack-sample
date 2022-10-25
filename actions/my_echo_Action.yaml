@@ -6,11 +6,7 @@ enabled: true
 entry_point: "my_echo_action.py"
 parameters:
   message:
-    type: string
+    type: object
     description: Message to print.
     required: true
     position: 0
-  another_message:
-    type: string
-    description: Another message
-    required: false
